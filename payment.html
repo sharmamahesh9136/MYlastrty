@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+</head>
+<body style=background-color:grey>
+  
+    <style>
+        h1,h3,fieldset{
+            color:rgb(255, 248, 249);
+            background-color:rgba(39, 180, 180, 0.973);
+        }
+        p{
+            color:gold
+        }
+        li{
+            list-style-type:square;
+            color: black;
+            font-weight: bold;
+        }
+    .topnav{
+        overflow: hidden;
+        background-color: rgb(68, 58, 58);
+        color: aliceblue;
+        }
+    .topnav a {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 13px 14px;
+        text-decoration:none;
+        font-size: 14px;
+        float: left;
+    }
+    .topnav a:hover {
+ background: #000000 ;
+
+}
+
+.topnav a.active {
+ background-color: #04aa6d;
+ color: white;
+}
+.topnav a.nonactive{
+   color: azure;
+}
+  </style>
+   <br>
+   <br>
+   <nav>
+   <div class="topnav">
+<a class="nonactive" href="index.html">HOME</a>
+<a  class="active" href="payment.html">PAYMENTS</a>
+<a class="nonactive" href="queriesofme.html">QUERIES</a>
+<a  class="nonactive" href="abouts.html">ABOUT</a>
+   </div>
+</nav>
+   <br>
+   <br>
+   <fieldset>
+    <h1 style="text-align:center">BILL PAYMENT</h1>
+    <h3 style="text-align:center">PAY YOUR BILLS ONLINE</h3>
+</fieldset>
+<p>NAME:<input type="text" name="name"></p>
+<p>ADDRESS:<textarea name="address" id="" cols="50" rows="2"></textarea></p>
+<p>EMAIL: <input type="email" name="email" id="email"></p>
+<br>
+<br>
+<hr color="gold">
+ 
+<h2 bold>Payment Information</h2>
+
+<p bold placeholder="123123">Bill Type</p>
+<ul>
+  <li> Light Bill <input type="radio" name="  Bill type" id="Bill type"></li>
+  <li>Water Bill <input type="radio" name="  Bill type" id="Bill type"></li>
+  <li>Gas Bill<input type="radio" name="  Bill type" id="Bill type"></li>
+  <li> Rent / Maintenence Bill<input type="radio"name="  Bill type" id=" Bill type"></li>
+</ul>
+<p>
+    BILL NO:<textarea name="bill no." id="" cols="12" rows="1"></textarea>
+</p>
+</fieldset>
+</form>
+</body>
+</html>
